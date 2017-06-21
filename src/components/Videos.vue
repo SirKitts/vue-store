@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     updateMe () {
-      // this.$emit('updateMe', foo)
+      // this.$emit('updateMe', this.videoSelector)
       this.selectedVideo.store.video.id = this.videoSelector
     }
   }
